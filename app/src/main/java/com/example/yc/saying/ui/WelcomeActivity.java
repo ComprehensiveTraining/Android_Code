@@ -30,7 +30,7 @@ public class WelcomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_welcome);
 
         // 默认初始化Bmob
-        Bmob.initialize(this, "a284302241437d6e5aa3b198433285a2");
+        Bmob.initialize(this, "Your Application ID");
 
         // 判断是否存在当前用户，如果存在，则直接进入主界面，不用再次登录
         _User current_user = BmobUser.getCurrentUser(_User.class);
